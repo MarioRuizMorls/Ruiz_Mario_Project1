@@ -639,8 +639,8 @@ void GameBoard::mainMenu(string &choice){
     }
     if(choice =="2"){
         cout<< endl << "==========================RULES========================"<<endl;
-        cout <<"Golf Solitaire features a game board with seven columns,\neach containing five face-up cards,alongside the\nStock (a facedown pile in the bottom left) and the\nWaste (an initially empty faceup pile next to the Stock).\nThe goal is to transfer all column cards to the Waste. "<< endl;
-        cout << "Only the top card of each column can be moved, and it\nmust be one rank higher or lower than the current top\ncard on the Waste. When the columns have no playable cards,\ncards from the Stock can be drawn, with only one pass\nallowed. The game is won when all column cards are on the\nWaste, irrespective of the Stock's remaining cards.\nIf no moves are possible and the Stock is depleted, the\ngame is lost"<<endl;
+        cout <<"Golf Solitaire features a game board with five rows,\neach containing five face-up cards,alongside the\nStock (a facedown pile in the bottom left) and the\nWaste (an initially empty faceup pile next to the Stock).\nThe goal is to transfer all row cards to the Waste. "<< endl;
+        cout << "Only the top card of each row can be moved, and it\nmust be one rank higher or lower than the current top\ncard on the Waste. When the rows have no playable cards,\ncards from the Stock can be drawn, with only one pass\nallowed. The game is won when all row cards are on the\nWaste, irrespective of the Stock's remaining cards.\nIf no moves are possible and the Stock is depleted, the\ngame is lost"<<endl;
         
     }
     if(choice =="3"){
